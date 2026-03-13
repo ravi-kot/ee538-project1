@@ -160,8 +160,6 @@ int main() {
     ////////////////////////////////////////////////////////
     // Print final result
     double final_fraction = calculate_fraction_of_ones();
-    cout << "Iteration " << iteration << ": fraction of 1's = " 
-         << final_fraction << endl;
     
     if(final_fraction == 1.0)
         cout << "Consensus reached: all 1's" << endl;
